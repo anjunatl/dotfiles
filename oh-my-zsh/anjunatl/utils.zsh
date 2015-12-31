@@ -5,8 +5,8 @@ function sshkey() {
 }
 
 # Find text in files
-function whereis() {
-	grep -rnw . "${1}"
+function searchfor() {
+	grep -rnw . -e "${1}"
 }
 
 # Find file by partial name
