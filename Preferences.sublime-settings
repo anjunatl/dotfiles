@@ -1,0 +1,10 @@
+{
+	"color_scheme": "Packages/Theme - Spaceblack/Color Schemes/Spaceblack.tmTheme",
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"spaceblack_sidebar_tree_large": true,
+	"spaceblack_tabs_xxlarge": true,
+	"theme": "Spaceblack.sublime-theme"
+}
