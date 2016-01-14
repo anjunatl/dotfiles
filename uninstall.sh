@@ -22,5 +22,7 @@ if [ -d $ORIGINAL_DOTFILES ]; then
 fi
 
 if [ -d $PLUGINS ]; then
-	rm -rf $PLUGINS
+	if [ -d $PLUGINS/anjunatl ]; then
+		rm -rf $PLUGINS/anjunatl
+	fi
 fi

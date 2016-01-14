@@ -16,7 +16,7 @@ done
 
 # If zsh is in place, drop the plugins in
 if [ -d $ZSH/plugins ]; then
-	ln -s $DOTFILES/oh-my-zsh/anjunatl $PLUGINS
+	ln -s $DOTFILES/oh-my-zsh/anjunatl $PLUGINS/anjunatl
 fi
 
 # If Sublime is present, drop the config files in

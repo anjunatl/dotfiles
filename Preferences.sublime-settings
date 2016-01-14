@@ -4,7 +4,7 @@
 	[
 		"Vintage"
 	],
-	"spaceblack_sidebar_tree_large": true,
+	"theme": "Spaceblack.sublime-theme",
 	"spaceblack_tabs_xxlarge": true,
-	"theme": "Spaceblack.sublime-theme"
+	"spaceblack_sidebar_tree_large": true
 }
