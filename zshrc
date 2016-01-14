@@ -82,4 +82,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 alias zshconfig="sublime ~/.zshrc"
 alias ohmyzsh="sublime ~/.oh-my-zsh"
-alias sublime='open -a /Applications/Sublime\ Text.app'
