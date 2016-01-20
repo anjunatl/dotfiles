@@ -21,6 +21,13 @@ Notes
 * To use the Command Pallete in Sublime, use CTRL+SHIFT+P
 
 
+Personal Preferences
+---
+* Open "Terminal sexy ansi.terminal" in terminal to get the color scheme
+* In Terminal's preferences, set Terminal Sexy as the default color scheme
+* Set the default window size to 80 columns by 24 rows
+
+
 Referenced Tools
 ---
 * [Mou](http://25.io/mou/)
