@@ -6,6 +6,8 @@ This is a repository for my dotfiles. For more information, check out [https://d
 Installation
 ---
 * Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) for the zsh scripts to be relevant
+* Install [Sublime Text 3](http://www.sublimetext.com/3)
+* Install [Package Control](https://packagecontrol.io/installation) using the Sublime Text 3 instructions
 * Run install.sh
 
 
