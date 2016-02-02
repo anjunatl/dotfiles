@@ -16,7 +16,9 @@ PS1="$YELLOW\u@$HOSTNAME$NO_COLOR:\w$GREEN\$(parse_git_branch)$CYAN\$"
 
 
 # Switch to Java 7
-/usr/libexec/java_home -v 1.7
+if [ -f /usr/libexec/java_home ]; then
+	/usr/libexec/java_home -v 1.7
+fi
 
 
 
