@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"EditorConfig",
+		"Material Theme",
 		"Package Control",
 		"Theme - Spaceblack"
 	]
