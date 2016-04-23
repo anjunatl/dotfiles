@@ -9,6 +9,7 @@ Installation
 * Install [Sublime Text 3](http://www.sublimetext.com/3)
 * Install [Package Control](https://packagecontrol.io/installation) using the Sublime Text 3 instructions
 * Install [Homebrew](http://brew.sh/)
+* Install [osx-terminal-themes](https://github.com/lysyi3m/osx-terminal-themes)
 * Run `install.sh`
 
 
@@ -24,6 +25,8 @@ Notes
 ---
 * In case you mess up `~/.oh-my-zsh`, it's just a git repo - just `git reset --hard` then re-run `install.sh`
 * To search history in terminal, use `CTRL+R`
+* To clear a line of text in terminal, use `CTRL+U`
+* To erase by word in terminal, use `CTRL+W`
 * To use the Command Pallete in Sublime, use `CTRL+SHIFT+P`
 * This is a good [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
@@ -35,12 +38,24 @@ Handling Forks
 * Changes in master should be merged into the private branch
 
 
-Personal Preferences
+Themes
 ---
-* Open `Terminal sexy ansi.terminal` in terminal to get the color scheme
-* In Terminal's preferences, set Terminal Sexy as the default color scheme
-* Set the default window size to 80 columns by 24 rows
+### Darkish/translucent
+Goes alright with the basic Darcula theme in IntelliJ. Dark is good during the workday but is rough when Flux's darkroom mode is turned on.
 
+* Terminal:
+  * Open `Terminal sexy ansi.terminal` in terminal to get the color scheme
+  * In Terminal's preferences, set `Terminal Sexy` as the default color scheme
+  * Set the default window size to 80 columns by 24 rows
+
+### Lighter
+Fairly soft and light, goes decently well together. Works well in Flux's darkroom mode, too. 
+
+* Terminal: `Tomorrow` theme from `osx-terminal-themes`
+* IntelliJ: `github` theme from [color-themes](http://color-themes.com/?view=theme&id=563a1a6c80b4acf11273ae70)
+* Sublime: 
+  * `3024 Day` colorscheme from Colorsublime, and 
+  * `Material Theme - Lighter` theme from [equinusocio/material-theme](https://github.com/equinusocio/material-theme)
 
 Referenced Tools
 ---
