@@ -1,5 +1,7 @@
 # Switch to Java 7
-/usr/libexec/java_home -v 1.7
+if [ -f /usr/libexec/java_home ]; then
+	/usr/libexec/java_home -v 1.7
+fi
 
 
 
