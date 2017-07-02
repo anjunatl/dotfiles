@@ -1,7 +1,12 @@
 # Enable key-based ssh logins
 function sshkey() {
     ssh-keygen -R ${1}
-    cat ~/.ssh/id_rsa.pub | ssh ${1} "mkdir ~/.ssh; cat >> ~/.ssh/authorized_keys"
+    if [ -z "$2" ]; then
+    	cat ~/.ssh/id_rsa.pub | ssh ${1} "mkdir ~/.ssh; cat >> ~/.ssh/authorized_keys"
+	fi
+	if [ ! -z "$2" ]; then
+		cat ~/.ssh/id_rsa.pub | ssh ${2}@${1} "mkdir ~/.ssh; cat >> ~/.ssh/authorized_keys"
+	fi
 }
 
 # Find text in files
