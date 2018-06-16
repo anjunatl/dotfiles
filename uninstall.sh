@@ -8,17 +8,8 @@ if [ -d $ORIGINAL_DOTFILES ]; then
 		fi
 		if [ -f $ORIGINAL_DOTFILES/$FILE ]; then
 			cp $ORIGINAL_DOTFILES/$FILE ~/.$FILE
-		fi		
+		fi
 	done
-
-	if [ -d "$SUBLIME" ]; then
-		if [ -f "$ORIGINAL_DOTFILES/$SUBLIME_PACKAGES" ]; then
-			cp "$ORIGINAL_DOTFILES/$SUBLIME_PACKAGES" "$SUBLIME/$SUBLIME_PACKAGES"
-		fi
-		if [ -f "$ORIGINAL_DOTFILES/$SUBLIME_PREFERENCES" ]; then
-			cp "$ORIGINAL_DOTFILES/$SUBLIME_PREFERENCES" "$SUBLIME/$SUBLIME_PREFERENCES"
-		fi
-	fi
 fi
 
 if [ -d $PLUGINS ]; then

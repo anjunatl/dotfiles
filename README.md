@@ -7,7 +7,8 @@ This is a repository for my dotfiles. For more information on these in general, 
 Installation
 ---
 * Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) for the zsh scripts to be relevant
-* Install [Sublime Text 3](http://www.sublimetext.com/3)
+* Install [Atom](https://atom.io/)
+* Install [VSCode](https://code.visualstudio.com/)
 * Install [Package Control](https://packagecontrol.io/installation) using the Sublime Text 3 instructions
 * Install [Homebrew](http://brew.sh/)
 * Install [osx-terminal-themes](https://github.com/lysyi3m/osx-terminal-themes)
@@ -17,7 +18,7 @@ Installation
 
 Provided Aliases
 ---
-* `sublime` - To open Sublime Text from the terminal
+* `atom` - To open Atom from the terminal
 * `sshkey` - Drop a host from known_hosts then copy your key to that host
 * `searchfor` - Find text in files
 * `findthis` - Find file by partial name
