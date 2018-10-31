@@ -4,12 +4,6 @@ if [ -f /usr/libexec/java_home ]; then
 fi
 
 
-
-# Aliases
-alias sublime='open -a /Applications/Sublime\ Text.app'
-
-
-
 # Enable key-based ssh logins
 function sshkey() {
     ssh-keygen -R ${1}
